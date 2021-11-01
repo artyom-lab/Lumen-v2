@@ -1329,13 +1329,17 @@ h1, .h1 {
 
 @media (min-width: 1950px) {
   .w-1550 {
-    display: flex;
     max-width: 1620px;
     margin-left: auto;
     margin-right: auto; }
     .w-1550 .sidebar-2 {
       position: initial;
       max-height: initial;
-      width: 380px; } }
+      width: 380px; }
+    .w-1550.display-flex {
+      display: flex; } }
+    @media (min-width: 1950px) and (max-width: 1949.98px) {
+      .w-1550.display-flex {
+        display: block; } }
 
 /*# sourceMappingURL=style.css.map */

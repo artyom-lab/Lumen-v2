@@ -1321,7 +1321,6 @@ h1, .h1
 
 .w-1550
 	@media (min-width: 1950px)
-		display: flex
 		max-width: 1620px
 		margin-left: auto
 		margin-right: auto
@@ -1329,3 +1328,9 @@ h1, .h1
 			position: initial
 			max-height: initial
 			width: 380px
+		&.display-flex 
+			display: flex
+			@media (max-width: 1949.98px)
+				display: block 
+
+
